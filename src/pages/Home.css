@@ -74,3 +74,18 @@
     width: 98%;
     border-radius: 10px;
 }
+
+dvNbty {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0px;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid rgb(197, 205, 217);
+    display: inline-block;
+    max-width: 100%;
+    padding: 12px;
+    position: relative;
+    transition: all 0.1s linear 0s;
+    width: 95%;
+}

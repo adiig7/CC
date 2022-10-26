@@ -114,7 +114,7 @@ const Home = () => {
         <div className="profileTweet">
           <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img>
           <div className="tweetBox" >
-            <TextArea style={{color:"white"}}
+            <TextArea
               label=""
               name="tweetTxtArea"
               placeholder="What's up on your mind?"
